@@ -11,7 +11,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class MovieProvider {
   private baseApiPath = "https://api.themoviedb.org/3";
-  private apiKey = "insira aqui sua api key";
+  private apiKey = "--";
 
   constructor(public http: Http) {
     console.log('Hello MovieProvider Provider');
